@@ -14,7 +14,6 @@ consumer.on('ready', () => {
   consumer.subscribe(['test']);
   consumer.consume();
 }).on('data', (data) => {
-  console.log(`received object: ${data}`);
   console.log(`received message: ${data.value}`);
 });
 
