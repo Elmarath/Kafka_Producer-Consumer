@@ -2,7 +2,7 @@
 Marmara University Open-Source class's project.
 
 >Project output
-![IMAGE]("/src/projectoutput.png")
+![IMAGE](/src/projectoutput.png)
 
 ## How to run
 
