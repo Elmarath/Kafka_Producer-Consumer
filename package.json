@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-kafka-producer_consumer",
+  "version": "1.0.0",
+  "description": "Denizhan_Kafka_Project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "run:producer": "node ./producer/index.js",
+    "run:consumer": "node ./consumer/index.js"
+  },
+  "author": "Denizhan Toprak",
+  "license": "ISC",
+  "dependencies": {
+    "avsc": "^5.7.4",
+    "node": "^17.7.2",
+    "node-rdkafka": "^2.13.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elmarath/Kafka_Producer-Consumer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Elmarath/Kafka_Producer-Consumer/issues"
+  },
+  "homepage": "https://github.com/Elmarath/Kafka_Producer-Consumer#readme"
+}
